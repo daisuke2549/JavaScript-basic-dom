@@ -38,18 +38,33 @@
 
 
 
-'use strict';
+// 'use strict';
+// { 
+//   document.querySelector('button').addEventListener('click', () => {
+//     const targetNode = document.getElementById('test');
+
+//     targetNode.textContent = 'Dotinstall';
+//     targetNode.classList.toggle('my-color');
+//     targetNode.classList.toggle('my-border');
+
+//     targetNode.textContent = targetNode.dataset.translation;
+
+//   });
+// }
+
+
+
+
+
 { 
   document.querySelector('button').addEventListener('click', () => {
-    const targetNode = document.getElementById('test');
+    const item2 = document.createElement('li');
+    item2.textContent = 'item2';
 
-    targetNode.textContent = 'Dotinstall';
-    targetNode.classList.toggle('my-color');
-    targetNode.classList.toggle('my-border');
 
-    targetNode.textContent = targetNode.dataset.translation;
-
-  });
+    const ul = document.querySelector('ul');
+    ul.appendChild(item2);
+  }); 
 }
 
 
