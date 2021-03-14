@@ -149,9 +149,69 @@
 
 /* strict モードを使うとコードが厳格モードで実行されるようになる*/
 
-for (var i = 1; i <=10; i++){
-    console.log(i);
+// for (var i = 1; i <=10; i++){
+//     console.log(i);
+// }
+
+
+/*配列についての練習コード */
+
+// let scores = [100, 60, 40];
+// console.log(scores);
+
+// scores[1]  = 80;
+// scores.push(70);
+
+
+// console.log(scores);
+
+// scores.pop()
+
+
+// console.log(scores.length);
+// length 自体もプロパティを持っている
+
+/* 　オブジェクト  */
+const scores = {
+    math:80,
+    message: function(){
+        console.log("messageです")
+    }
 }
+
+
+console.log(scores.message());
+
+
+
+const user = {　　　　//オブジェクトuserを定義
+    firstName: 'suzuki',  //プロパティを定義
+    lastName: 'yamada',   //プロパティを定義
+    fullname: function(){　　//function = メソッドを定義
+        return `${this.firstName} ${this.lastName}`    
+},
+   sayHi: function(){
+       const fullname = this.fullname()
+       console.log(`${fullname}だよ`)
+   }
+
+}
+console.log(user.sayHi())
+
+
+const points = [1,2,3,4,5];
+
+
+console.log(points);
+
+
+points.push(199);
+
+
+console.log(points);
+
+
+
 
 
 
