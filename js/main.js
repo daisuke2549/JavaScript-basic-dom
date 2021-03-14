@@ -172,43 +172,91 @@
 // length 自体もプロパティを持っている
 
 /* 　オブジェクト  */
-const scores = {
-    math:80,
-    message: function(){
-        console.log("messageです")
-    }
+// const scores = {
+//     math:80,
+//     message: function(){
+//         console.log("messageです")
+//     }
+// }
+
+
+// console.log(scores.message());
+
+
+
+// const user = {　　　　//オブジェクトuserを定義
+//     firstName: 'suzuki',  //プロパティを定義
+//     lastName: 'yamada',   //プロパティを定義
+//     fullname: function(){　　//function = メソッドを定義
+//         return `${this.firstName} ${this.lastName}`    
+// },
+//    sayHi: function(){
+//        const fullname = this.fullname()
+//        console.log(`${fullname}だよ`)
+//    }
+
+// }
+// console.log(user.sayHi())
+
+
+// const points = [1,2,3,4,5];
+
+
+// console.log(points);
+
+
+// points.push(199);
+
+
+// console.log(points);
+
+
+
+//JSの繰り返し表現 //
+
+
+const scores = [1,2,3,4,5,53,3];
+
+
+for( let score of scores){
+    console.log(score);
 }
 
 
-console.log(scores.message());
 
+for (let count =0; count<100; count++){
 
-
-const user = {　　　　//オブジェクトuserを定義
-    firstName: 'suzuki',  //プロパティを定義
-    lastName: 'yamada',   //プロパティを定義
-    fullname: function(){　　//function = メソッドを定義
-        return `${this.firstName} ${this.lastName}`    
-},
-   sayHi: function(){
-       const fullname = this.fullname()
-       console.log(`${fullname}だよ`)
-   }
-
+console.log(count);
 }
-console.log(user.sayHi())
 
 
-const points = [1,2,3,4,5];
+
+scores.forEach(function(score){
+    console.log(score);
+})
 
 
-console.log(points);
 
 
-points.push(199);
 
 
-console.log(points);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
