@@ -259,42 +259,65 @@
 // console.log("hello world");
 
 
-function calCircleArea(radius){   //radiusが引数
-let pai = 3
-let area = radius * radius * pai
-return area
-}
+// function calCircleArea(radius){   //radiusが引数
+// let pai = 3
+// let area = radius * radius * pai
+// return area
+// }
 
-console.log(calCircleArea(6))
-
-
-function double(number){
-    return number*2        //returnは返り値
-}
-
-console.log(double(9))
+// console.log(calCircleArea(6))
 
 
+// function double(number){
+//     return number*2        //returnは返り値
+// }
 
-function showmessage(){
-    console.log("hello world");
-    console.log("this is test message");
-}
-
-showmessage()
+// console.log(double(9))
 
 
-function say(firstName, lastName){
-    console.log(`${firstName} ${lastName}`)
-}
-say("daisuke", "sasaki")
+
+// function showmessage(){
+//     console.log("hello world");
+//     console.log("this is test message");
+// }
+
+// showmessage()
 
 
-const message = "hello world"
-function hello(){
-    console.log(message)
-}
-hello()
+// function say(firstName, lastName){
+//     console.log(`${firstName} ${lastName}`)
+// }
+// say("daisuke", "sasaki")
+
+
+// const message = "hello world"
+// function hello(){
+//     console.log(message)
+// }
+// hello()
+
+
+
+let myCar = {
+    make: 'toyota',   //プロパティをメソッドとして関数化することができる。
+    model:'prince',
+    year: 2020
+};
+
+myCar.make = 'suzuki';
+myCar.model = 'model';
+myCar.year = 1992;
+
+console.log(myCar.make);
+console.log(myCar.model);
+console.log(myCar.year);
+
+
+
+
+
+
+
 
 
 
