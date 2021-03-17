@@ -344,28 +344,188 @@
 // }
 
 
-let array = [1, 2, 3,4, 5]
+// let array = [1, 2, 3,4, 5]
 
 
-for (let i = 0; i< array.length-1; i++){
-    console.log(array);
-}
-
-
-
+// for (let i = 0; i< array.length-1; i++){
+//     console.log(array);
+// }
 
 
 
+// let score = 1000;
+
+// console.log(score / 100);
+
+
+
+// let obj = {
+//     property1: 'value1',
+//     property2: 'value2',
+//     prop3: function(){
+//         console.log("value3");
+//     },
+//     prop4:{
+//         prop5: 'value5'
+//     }
+// }
+
+
+// obj.prop3;
+
+// console.log(obj.property2);
 
 
 
 
+// var name = "suzuki";
+// var name = "tanaka";
+// console.log(name);
+
+
+
+// let score = 70;
+// score = 80;
+// console.log(score);
+
+
+// const test = 60;
+
+
+// console.log(test);
+
+// function hello(){
+//     console.log("sudah makan");
+// }
+
+// hello();
+
+// const array = [1,2,3,4,5];
+
+
+// for (let i = 0; i < array.length; i++){
+//     console.log(i);
+// }
+
+// let v, i = 0;
+// while (v = array[i++]){
+//     console.log(v);
+// }
+
+
+
+// function fn(a, b){
+//     console.log(a,b);
+// }
+
+// fn(2);
+
+
+// const person = {
+//     name:"taro",
+//     hello: function(){
+//         console.log('Hello' + this.name);
+//     }
+// }
+// person.hello();
 
 
 
 
+//イテレーター
+
+// const array  = ['sample1','sample2', 'sample3'];
+
+// array[4] = 'sample4';
+
+// for (let v of array){
+//     console.log(v)
+// }
 
 
+//演算子の優先順位
+
+// let a =  (3+2)*3;
+
+// console.log(a);
+
+
+// let b = ++a;
+
+// console.log(a,b);
+
+
+// const c = 1000;
+// const d = 2000;
+// const e = 3000;
+
+// console.log(c && d && e);
+
+// console.log(c || d || e);
+
+
+// const a  = 'hello';
+// a = 'bye';  
+
+// var myCar = new Object();
+// myCar.make = 'Ford';
+// myCar.model = 'Mustang';
+// myCar.year = 1969;
+
+
+// console.log(myCar.year);
+
+
+// const numbers = ['pretty','important','terminology','test', 'influence'];
+
+
+// console.log(numbers.map(number => number.length));
+
+
+// function multiply(x, y){
+//     return x*y;
+// }
+
+
+// console.log(multiply(10, 20));
+
+
+
+
+// const number = ['a','b','c','d','e'];
+
+// for (const element of number){
+//     console.log(element);
+// }
+
+
+// const iterable = [10,20,30,40];
+
+
+// for (let value of iterable){
+//     value += 100;
+//     console.log(value);
+// }
+
+
+// let random = ['tree', 795, [0, 1, 2]];
+
+// console.log(random[0]);
+
+
+// let shopping = ['パン', '牛乳', 'チーズ', 'ハム', '麺'];
+
+// console.log(shopping);
+
+
+// let sequence = [1, 1, 2, 3, 5, 8, 13];
+
+// sequence.push(10000);
+// sequence.push(44);
+
+// for (let i = 0; i < sequence.length; i++){
+//     console.log(sequence[i]);
+// }
 
 
 
